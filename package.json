@@ -1,0 +1,23 @@
+{
+  "name": "employee-leave-management",
+  "version": "1.0.0",
+  "description": "Web-based Employee Leave Management System (Node.js, Express, MySQL, sessions)",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "db:init": "node scripts/dbInit.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.11.0",
+    "nodemailer": "^7.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

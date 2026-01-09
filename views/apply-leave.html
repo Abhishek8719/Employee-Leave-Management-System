@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apply Leave</title>
+  <link rel="stylesheet" href="/public/styles.css" />
+  <script type="module" src="/public/app.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Apply for Leave</h1>
+
+    <form id="leave-form" method="post" action="/apply-leave" class="card">
+      <div class="form-error" role="alert" aria-live="polite" hidden></div>
+      <label>
+        Start Date
+        <input name="startDate" type="date" required />
+      </label>
+
+      <label>
+        End Date
+        <input name="endDate" type="date" required />
+      </label>
+
+      <label>
+        Reason
+        <textarea name="reason" rows="4" required></textarea>
+      </label>
+
+      <div class="row">
+        <button class="btn" type="submit">Submit</button>
+        <a class="btn btn-secondary" href="/dashboard">Back</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin Login</title>
+  <link rel="stylesheet" href="/public/styles.css" />
+  <script type="module" src="/public/app.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Admin Login</h1>
+
+    <form id="admin-login-form" method="post" action="/admin/login" class="card">
+      <div class="form-error" role="alert" aria-live="polite" hidden></div>
+      <label>
+        Admin Email
+        <input name="email" type="email" required />
+      </label>
+
+      <label>
+        Admin Password
+        <input name="password" type="password" required />
+      </label>
+
+      <button class="btn" type="submit">Login</button>
+    </form>
+
+    <p><a href="/login">Back to employee login</a></p>
+  </div>
+</body>
+</html>
