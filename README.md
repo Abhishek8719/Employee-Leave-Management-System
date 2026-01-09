@@ -9,6 +9,8 @@ A comprehensive web-based employee leave management system built with Node.js, E
 - **Leave Request Management**: Submit leave requests with start date, end date, and reason
 - **Request Tracking**: View status of all submitted leave requests (Pending, Approved, Rejected)
 - **Dashboard**: Centralized view of all leave-related activities
+- <img width="1920" height="1080" alt="Screenshot (372)" src="https://github.com/user-attachments/assets/5324cc0f-400e-433f-b449-6b4327d303ef" />
+
 
 ### Admin Features
 - **Admin Dashboard**: Comprehensive overview of all leave requests
