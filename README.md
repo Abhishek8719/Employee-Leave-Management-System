@@ -9,13 +9,20 @@ A comprehensive web-based employee leave management system built with Node.js, E
 - **Leave Request Management**: Submit leave requests with start date, end date, and reason
 - **Request Tracking**: View status of all submitted leave requests (Pending, Approved, Rejected)
 - **Dashboard**: Centralized view of all leave-related activities
-- <img width="1920" height="1080" alt="Screenshot (372)" src="https://github.com/user-attachments/assets/5324cc0f-400e-433f-b449-6b4327d303ef" />
+<img width="1920" height="1080" alt="Screenshot (376)" src="https://github.com/user-attachments/assets/60804c87-90dd-42ec-8152-481b79bde48a" />
+<img width="1920" height="1080" alt="Screenshot (383)" src="https://github.com/user-attachments/assets/c4eed20f-d291-486e-b164-1337a8b4faaf" />
+<img width="1920" height="1080" alt="Screenshot (376)" src="https://github.com/user-attachments/assets/834b53ef-53f9-43f9-98ae-713dc3a53b2e" />
 
 
 ### Admin Features
 - **Admin Dashboard**: Comprehensive overview of all leave requests
 - **Request Management**:  Approve or reject employee leave requests
 - **Employee Oversight**: Monitor leave patterns and history
+-
+<img width="1920" height="1080" alt="Screenshot (387)" src="https://github.com/user-attachments/assets/78b53bce-9125-4119-a688-62507ec26b23" />
+<img width="1920" height="1080" alt="Screenshot (372)" src="https://github.com/user-attachments/assets/37951b3b-2d30-4bfb-be3d-801a7d209728" />
+<img width="540" height="1230" alt="image" src="https://github.com/user-attachments/assets/d643a0c0-7d48-43b3-8625-8a4c7a135818" />
+
 
 ### Security Features
 - Session-based authentication
